@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/techfest-logo.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TechFest 2026</title>
+  </head>
+
+  <body>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">// TECH<span>FEST</span> '26</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul
+            class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mb-3 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#tracks">Tracks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carousel-section">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prizes">Prizes</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn-register" href="#register">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-grid-bg"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="hero-badge">
+              <span class="live-dot"></span>
+              Manila &middot; June 20-22, 2026
+            </div>
+
+            <h1 class="hero-title mb-4">
+              <span class="solid-text">BUILD THE</span>
+              <span class="cyan-text">FUTURE</span>
+              <span class="outline-text">NOW</span>
+            </h1>
+
+            <p class="hero-lead">
+              48 hours. 500 hackers. Infinite possibilities. Join the
+              Philippines' most electrifying hackathon where code meets vision
+              and ideas become reality.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mb-5">
+              <a href="#register" class="btn-primary-custom"
+                >Register Your Team</a
+              >
+              <button
+                class="btn-secondary-custom"
+                data-bs-toggle="modal"
+                data-bs-target="#infoModal"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="hero-mini-stats">
+              <div class="row g-0">
+                <div class="col-4">
+                  <div class="mini-stat-box">
+                    <span class="mini-stat-number">48H</span>
+                    <span class="mini-stat-label">Non-Stop</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="mini-stat-box">
+                    <span class="mini-stat-number">500+</span>
+                    <span class="mini-stat-label">Hackers</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="mini-stat-box" style="border-right: none">
+                    <span class="mini-stat-number">&#8369;2M+</span>
+                    <span class="mini-stat-label">Prizes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <img
+              src="img/annie-spratt-QckxruozjRg-unsplash.jpg"
+              alt="team-hackathon"
+              class="img-team"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats">
+      <div class="container-fluid px-0">
+        <div class="row g-0">
+          <div class="col-6 col-md-3 reveal">
+            <div class="stat-item">
+              <span class="stat-big-number">&#8369;<span>2M</span>+</span>
+              <span class="stat-small-label">Total Prizes</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 reveal">
+            <div class="stat-item">
+              <span class="stat-big-number"><span>500</span>+</span>
+              <span class="stat-small-label">Hackers</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 reveal">
+            <div class="stat-item">
+              <span class="stat-big-number"><span>6</span></span>
+              <span class="stat-small-label">Challenge Tracks</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 reveal">
+            <div class="stat-item" style="border-right: none">
+              <span class="stat-big-number"><span>40</span>+</span>
+              <span class="stat-small-label">Expert Mentors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tracks">
+      <div class="container">
+        <span class="section-small-tag reveal">Challenge Tracks</span>
+        <h2 class="section-big-title reveal">
+          Pick Your <span class="outline-word">Battlefield</span>
+        </h2>
+        <p class="section-description reveal">
+          Six high-stakes tracks, each tackling a critical frontier of
+          technology. Choose your arena and build something that matters.
+        </p>
+
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="track-card">
+              <div class="top-line" style="background-color: #00f0ff"></div>
+              <span class="track-icon-text" style="color: #00f0ff">[AI]</span>
+              <div class="track-title">AI &amp; Machine Learning</div>
+              <p class="track-description">
+                Build intelligent systems that learn, adapt, and solve
+                real-world problems with cutting-edge models and novel datasets.
+              </p>
+              <div class="track-prize-text" style="color: #00f0ff">
+                Prize Pool: &#8369;400,000
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="track-card">
+              <div class="top-line" style="background-color: #ff2d78"></div>
+              <span class="track-icon-text" style="color: #ff2d78">[WEB3]</span>
+              <div class="track-title">Web3 &amp; Blockchain</div>
+              <p class="track-description">
+                Decentralized apps, DeFi protocols, and smart contracts that
+                reimagine trust, ownership, and digital identity.
+              </p>
+              <div class="track-prize-text" style="color: #ff2d78">
+                Prize Pool: &#8369;350,000
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="track-card">
+              <div class="top-line" style="background-color: #ffd700"></div>
+              <span class="track-icon-text" style="color: #ffd700">[IOT]</span>
+              <div class="track-title">IoT &amp; Hardware</div>
+              <p class="track-description">
+                Bridge the physical and digital worlds. Sensors, embedded
+                systems, and smart devices that change how we live.
+              </p>
+              <div class="track-prize-text" style="color: #ffd700">
+                Prize Pool: &#8369;300,000
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="track-card">
+              <div class="top-line" style="background-color: #9b59b6"></div>
+              <span class="track-icon-text" style="color: #9b59b6">[SEC]</span>
+              <div class="track-title">Cybersecurity</div>
+              <p class="track-description">
+                Build the next line of defense. Threat detection, zero-trust
+                systems, and privacy tools for the modern web.
+              </p>
+              <div class="track-prize-text" style="color: #9b59b6">
+                Prize Pool: &#8369;350,000
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="track-card">
+              <div class="top-line" style="background-color: #39ff14"></div>
+              <span class="track-icon-text" style="color: #39ff14">[OPEN]</span>
+              <div class="track-title">Open Innovation</div>
+              <p class="track-description">
+                No rules except impact. Build anything that pushes the
+                boundaries of what software can do for humanity.
+              </p>
+              <div class="track-prize-text" style="color: #39ff14">
+                Prize Pool: &#8369;250,000
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 reveal">
+            <div class="track-card">
+              <div class="top-line" style="background-color: #ff7b00"></div>
+              <span class="track-icon-text" style="color: #ff7b00">[GOV]</span>
+              <div class="track-title">Govtech &amp; Inclusion</div>
+              <p class="track-description">
+                Technology for every Filipino. Civic tools, accessibility
+                solutions, and social impact projects at scale.
+              </p>
+              <div class="track-prize-text" style="color: #ff7b00">
+                Prize Pool: &#8369;300,000
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carousel-section">
+      <div class="container">
+        <span class="section-small-tag reveal">Featured Speakers</span>
+        <h2 class="section-big-title mb-5 reveal">
+          The <span class="outline-word">Minds</span> Behind the Mic
+        </h2>
+
+        <div
+          id="speakerCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="4500"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#speakerCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#speakerCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#speakerCarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#speakerCarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+
+          <div class="carousel-inner pb-5">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <div class="speaker-card">
+                    <div
+                      class="speaker-avatar-box"
+                      style="background-color: rgba(0, 240, 255, 0.1)"
+                    >
+                      <span style="color: #00f0ff">JR</span>
+                    </div>
+
+                    <p class="speaker-quote">
+                      "The next wave of AI won't be built in Silicon Valley — it
+                      will come from builders right here in Southeast Asia who
+                      understand the real problems of real people."
+                    </p>
+                    <div class="speaker-name">Jasmine Reyes</div>
+                    <div class="speaker-role">CTO, Voyager Innovations</div>
+                    <span class="speaker-topic-badge"
+                      >The AI Stack: Building at the Frontier</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <div class="speaker-card">
+                    <div
+                      class="speaker-avatar-box"
+                      style="background-color: rgba(255, 45, 120, 0.1)"
+                    >
+                      <span style="color: #ff2d78">KT</span>
+                    </div>
+                    <p class="speaker-quote">
+                      "Every unicorn we've backed started as a weekend project.
+                      Hackathons aren't just competitions — they're where
+                      generational companies begin."
+                    </p>
+                    <div class="speaker-name">Kenji Tanaka</div>
+                    <div class="speaker-role">Partner, Sequoia SEA</div>
+                    <span
+                      class="speaker-topic-badge"
+                      style="
+                        border-color: rgba(255, 45, 120, 0.35);
+                        color: #ff2d78;
+                        background-color: rgba(255, 45, 120, 0.06);
+                      "
+                      >From Hackathon to Series A</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <div class="speaker-card">
+                    <div
+                      class="speaker-avatar-box"
+                      style="background-color: rgba(155, 89, 182, 0.1)"
+                    >
+                      <span style="color: #9b59b6">MS</span>
+                    </div>
+                    <p class="speaker-quote">
+                      "We processed millions of transactions before we had a
+                      proper office. If your code works and solves a real pain
+                      point, nothing else matters at the start."
+                    </p>
+                    <div class="speaker-name">Maria Santos</div>
+                    <div class="speaker-role">Founding Engineer, Paymongo</div>
+                    <span
+                      class="speaker-topic-badge"
+                      style="
+                        border-color: rgba(155, 89, 182, 0.35);
+                        color: #9b59b6;
+                        background-color: rgba(155, 89, 182, 0.06);
+                      "
+                      >Scaling Fintech in the Philippines</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                  <div class="speaker-card">
+                    <div
+                      class="speaker-avatar-box"
+                      style="background-color: rgba(255, 215, 0, 0.1)"
+                    >
+                      <span style="color: #ffd700">DC</span>
+                    </div>
+                    <p class="speaker-quote">
+                      "Building for a billion users teaches you things no CS
+                      course ever could. Start small, think massive, and always
+                      ship."
+                    </p>
+                    <div class="speaker-name">Diego Cruz</div>
+                    <div class="speaker-role">Head of DevRel, Google APAC</div>
+                    <span
+                      class="speaker-topic-badge"
+                      style="
+                        border-color: rgba(255, 215, 0, 0.35);
+                        color: #ffd700;
+                        background-color: rgba(255, 215, 0, 0.06);
+                      "
+                      >Building for a Billion Users</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#speakerCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#speakerCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <div class="container">
+        <span class="section-small-tag reveal">Event Timeline</span>
+        <h2 class="section-big-title mb-4 reveal">
+          48-Hour <span class="outline-word">Schedule</span>
+        </h2>
+
+        <ul class="nav mb-4 reveal" id="scheduleTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="schedule-tab-btn active"
+              id="day1-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#day1-content"
+              type="button"
+              role="tab"
+            >
+              Day 01
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="schedule-tab-btn"
+              id="day2-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#day2-content"
+              type="button"
+              role="tab"
+            >
+              Day 02
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="schedule-tab-btn"
+              id="day3-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#day3-content"
+              type="button"
+              role="tab"
+            >
+              Day 03
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div
+            class="tab-pane fade show active"
+            id="day1-content"
+            role="tabpanel"
+          >
+            <div class="schedule-row">
+              <div class="schedule-time">08:00 AM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Registration &amp; Kit Pickup
+                </div>
+                <div class="schedule-location">SMDC Arena — Main Lobby</div>
+              </div>
+              <span class="schedule-badge badge-hack">Check-in</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">10:00 AM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Opening Ceremony &amp; Keynote
+                </div>
+                <div class="schedule-location">Main Stage</div>
+              </div>
+              <span class="schedule-badge badge-keynote">Keynote</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">12:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Hacking Begins — Track Kickoff
+                </div>
+                <div class="schedule-location">Hacker Floors 1-3</div>
+              </div>
+              <span class="schedule-badge badge-hack">Hack</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">01:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Lunch + Sponsor Booths Open
+                </div>
+                <div class="schedule-location">Ground Floor</div>
+              </div>
+              <span class="schedule-badge badge-food">Food</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">03:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Workshop: Prompt Engineering at Scale
+                </div>
+                <div class="schedule-location">Room A &middot; Max 80 pax</div>
+              </div>
+              <span class="schedule-badge badge-workshop">Workshop</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">07:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">Dinner + Networking</div>
+                <div class="schedule-location">Rooftop Terrace</div>
+              </div>
+              <span class="schedule-badge badge-food">Food</span>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="day2-content" role="tabpanel">
+            <div class="schedule-row">
+              <div class="schedule-time">06:00 AM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Sunrise Breakfast &amp; Recharge
+                </div>
+                <div class="schedule-location">Ground Floor Café</div>
+              </div>
+              <span class="schedule-badge badge-food">Food</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">09:00 AM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">Mentor Speed Rounds</div>
+                <div class="schedule-location">All Hacker Floors</div>
+              </div>
+              <span class="schedule-badge badge-workshop">Mentoring</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">02:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Fireside Chat: Founders Panel
+                </div>
+                <div class="schedule-location">Main Stage</div>
+              </div>
+              <span class="schedule-badge badge-keynote">Panel</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">06:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Workshop: Building with APIs
+                </div>
+                <div class="schedule-location">Room B &middot; Max 60 pax</div>
+              </div>
+              <span class="schedule-badge badge-workshop">Workshop</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">11:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Midnight Ramen + Energy Reload
+                </div>
+                <div class="schedule-location">Hacker Canteen</div>
+              </div>
+              <span class="schedule-badge badge-food">Food</span>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="day3-content" role="tabpanel">
+            <div class="schedule-row">
+              <div class="schedule-time">12:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Hacking Ends — Final Submission
+                </div>
+                <div class="schedule-location">Devpost Portal</div>
+              </div>
+              <span class="schedule-badge badge-hack">Submit</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">01:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Demo Pitches — Track Judging
+                </div>
+                <div class="schedule-location">Stage A, B, C</div>
+              </div>
+              <span class="schedule-badge badge-keynote">Pitch</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">04:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Awards Ceremony &amp; Closing
+                </div>
+                <div class="schedule-location">Main Stage</div>
+              </div>
+              <span class="schedule-badge badge-keynote">Keynote</span>
+            </div>
+
+            <div class="schedule-row">
+              <div class="schedule-time">06:00 PM</div>
+              <div class="schedule-info">
+                <div class="schedule-event-name">
+                  Celebration Party + Live DJ
+                </div>
+                <div class="schedule-location">Rooftop Terrace</div>
+              </div>
+              <span class="schedule-badge badge-food">Party</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="prizes">
+      <div class="container">
+        <span class="section-small-tag reveal">Prize Pool</span>
+        <h2 class="section-big-title mb-5 reveal">
+          Win Big. <span class="outline-word">Build Bigger.</span>
+        </h2>
+
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-3 reveal">
+            <div class="prize-card gold-card">
+              <span class="grand-label">GRAND PRIZE</span>
+              <div class="prize-rank-text">// Grand Champion</div>
+              <div class="prize-amount-text gold-amount">&#8369;500K</div>
+              <p class="prize-details mt-3">
+                Cash + VC intro meeting + Featured product launch + Trophy +
+                Cloud credits
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 reveal">
+            <div class="prize-card">
+              <div class="prize-rank-text">// 1st Runner Up</div>
+              <div class="prize-amount-text cyan-amount">&#8369;200K</div>
+              <p class="prize-details mt-3">
+                Cash + Accelerator program slot + Mentorship package
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 reveal">
+            <div class="prize-card">
+              <div class="prize-rank-text">// 2nd Runner Up</div>
+              <div class="prize-amount-text cyan-amount">&#8369;100K</div>
+              <p class="prize-details mt-3">
+                Cash + Cloud credits bundle + Sponsor partnership offers
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 reveal">
+            <div class="prize-card">
+              <div class="prize-rank-text">// Best First-Timer</div>
+              <div class="prize-amount-text cyan-amount">&#8369;50K</div>
+              <p class="prize-details mt-3">
+                Special recognition + Bootcamp scholarships + Gear package
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="register">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <div class="text-center mb-5 reveal">
+              <span
+                class="section-small-tag"
+                style="justify-content: center; display: flex"
+                >Register Now</span
+              >
+              <h2 class="section-big-title">
+                Ready to <span class="outline-word">Hack?</span>
+              </h2>
+              <p style="color: #6b7a9e; margin-top: 10px">
+                Applications close June 1, 2026. Teams of 2-5 members. All skill
+                levels welcome.
+              </p>
+            </div>
+
+            <div class="form-box reveal">
+              <form id="registrationForm" novalidate>
+                <div class="row g-4">
+                  <div class="col-12 col-md-6">
+                    <label for="fullName" class="form-label">Full Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fullName"
+                      placeholder="Juan dela Cruz"
+                      required
+                      minlength="3"
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">
+                      Please enter your full name (at least 3 characters).
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <label for="email" class="form-label"
+                      >Email Address *</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="juan@example.com"
+                      required
+                    />
+                    <div class="valid-feedback">Valid email!</div>
+                    <div class="invalid-feedback">
+                      Please enter a valid email address.
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <label for="teamName" class="form-label">Team Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="teamName"
+                      placeholder="e.g. ByteForce"
+                      required
+                      minlength="2"
+                    />
+                    <div class="valid-feedback">Great team name!</div>
+                    <div class="invalid-feedback">
+                      Team name must be at least 2 characters.
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <label for="teamSize" class="form-label">Team Size *</label>
+                    <select class="form-select" id="teamSize" required>
+                      <option value="" disabled selected>
+                        Select team size
+                      </option>
+                      <option value="1">Solo (1 member)</option>
+                      <option value="2">2 members</option>
+                      <option value="3">3 members</option>
+                      <option value="4">4 members</option>
+                      <option value="5">5 members</option>
+                    </select>
+                    <div class="valid-feedback">Team size confirmed!</div>
+                    <div class="invalid-feedback">
+                      Please select a team size.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="track" class="form-label"
+                      >Preferred Track *</label
+                    >
+                    <select class="form-select" id="track" required>
+                      <option value="" disabled selected>
+                        Choose your track
+                      </option>
+                      <option value="ai">AI &amp; Machine Learning</option>
+                      <option value="web3">Web3 &amp; Blockchain</option>
+                      <option value="iot">IoT &amp; Hardware</option>
+                      <option value="sec">Cybersecurity</option>
+                      <option value="open">Open Innovation</option>
+                      <option value="gov">Govtech &amp; Inclusion</option>
+                    </select>
+                    <div class="valid-feedback">Track selected!</div>
+                    <div class="invalid-feedback">
+                      Please select a challenge track.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="github" class="form-label"
+                      >GitHub Profile URL *</label
+                    >
+                    <input
+                      type="url"
+                      class="form-control"
+                      id="github"
+                      placeholder="https://github.com/username"
+                      required
+                    />
+                    <div class="valid-feedback">GitHub profile confirmed!</div>
+                    <div class="invalid-feedback" id="githubError">
+                      Please enter a valid GitHub URL (https://github.com/...).
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="ageCheck"
+                        required
+                      />
+                      <label class="form-check-label" for="ageCheck">
+                        I confirm I am 18 years old or above *
+                      </label>
+                      <div class="invalid-feedback">
+                        You must confirm your age to proceed.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="termsCheck"
+                        required
+                      />
+                      <label class="form-check-label" for="termsCheck">
+                        I agree to the
+                        <a href="#" style="color: #00f0ff"
+                          >Terms &amp; Conditions</a
+                        >
+                        and
+                        <a href="#" style="color: #00f0ff">Code of Conduct</a> *
+                      </label>
+                      <div class="invalid-feedback">
+                        You must agree to the terms.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 text-center" style="padding-top: 10px">
+                    <button type="submit" class="btn-submit">
+                      <i class="bi bi-send-fill me-2"></i>Submit Registration
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="modal fade"
+      id="infoModal"
+      tabindex="-1"
+      aria-labelledby="infoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoModalLabel">
+              // ABOUT TECHFEST '26
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row g-4">
+              <div class="col-12 col-md-6">
+                <div class="modal-img-placeholder">
+                  <i class="bi bi-people-fill"></i>
+                  <span>Event Photo Goes Here</span>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <span class="section-small-tag">What is TechFest?</span>
+                <p
+                  style="
+                    color: #6b7a9e;
+                    font-size: 14px;
+                    line-height: 1.8;
+                    margin-bottom: 15px;
+                  "
+                >
+                  TechFest '26 is the Philippines' largest student and
+                  professional hackathon, bringing together 500+ developers,
+                  designers, and innovators for 48 hours of relentless building.
+                </p>
+                <p style="color: #6b7a9e; font-size: 14px; line-height: 1.8">
+                  Backed by leading VCs, tech giants, and government partners —
+                  TechFest is where the next generation of Filipino tech
+                  founders are born.
+                </p>
+              </div>
+              <div class="col-12">
+                <div class="row g-3 text-center">
+                  <div class="col-4">
+                    <div class="modal-info-box">
+                      <div class="modal-info-number">FREE</div>
+                      <div class="modal-info-label">To Join</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="modal-info-box">
+                      <div class="modal-info-number">FOOD</div>
+                      <div class="modal-info-label">Provided</div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="modal-info-box">
+                      <div class="modal-info-number">ALL</div>
+                      <div class="modal-info-label">Skill Levels</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn-secondary-custom"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a
+              href="#register"
+              class="btn-primary-custom"
+              data-bs-dismiss="modal"
+              >Register Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="toast-container position-fixed bottom-0 end-0 p-4"
+      style="z-index: 9999"
+    >
+      <div
+        id="successToast"
+        class="toast custom-toast align-items-center"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+        data-bs-delay="5000"
+      >
+        <div class="toast-header">
+          <i class="bi bi-check-circle-fill me-2"></i>
+          <strong class="me-auto">// REGISTRATION RECEIVED</strong>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body" style="font-size: 14px; color: #6b7a9e">
+          We've received your application! Check your email for confirmation
+          details.
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row align-items-center g-3">
+          <div class="col-12 col-md-4">
+            <div class="footer-brand">// TECHFEST '26</div>
+          </div>
+
+          <div class="col-12 col-md-4 text-center">
+            <div class="footer-text">
+              June 20-22, 2026<br />
+              SMDC Arena, Pasay, Metro Manila
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 text-md-end">
+            <div class="footer-text">
+              hello@techfest.ph<br />
+              #TechFest2026
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
