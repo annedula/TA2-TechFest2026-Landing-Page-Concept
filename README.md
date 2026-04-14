@@ -4,8 +4,10 @@
 ## Project Overview
  
 **TechFest '26** is a fully responsive, dynamic landing page built for a fictional hackathon event set in Manila, Philippines. This project was created as a midterm assessment to demonstrate mastery of Bootstrap 5, JavaScript form validation, and UI/UX design principles.
-## File Structure
+
+## 📁 File Structure
  
+```
 TA1-WEBSITE-DEVELOPMENT/
 │
 ├── css/
@@ -14,7 +16,7 @@ TA1-WEBSITE-DEVELOPMENT/
 │
 ├── img/
 │   ├── annie-spratt-QckxruozjRg-unsplash.jpg   # Background/image asset
-│   ├── DULA_FP.jpg                             # Custom project image
+│   ├── DULA_FP.jpg                             # Custom project image in Learn more button
 │   └── techfest-logo.svg                       # Logo used in the website
 │
 ├── js/
@@ -22,7 +24,8 @@ TA1-WEBSITE-DEVELOPMENT/
 │   └── custom.js              # Custom scripts and interactions
 │
 └── index.html                 # Main landing page of the website
- 
+```
+
 ## Tech Stack
  
 | Technology | Version | Purpose |
