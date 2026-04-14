@@ -61,7 +61,7 @@ These are already included in the `<head>` of `index.html`:
  
 ---
  
-## 📐 Bootstrap Implementation Details
+## Bootstrap Implementation Details
  
 ### Navbar (Bootstrap Component)
  
@@ -118,7 +118,7 @@ Example from track cards:
  
 ---
  
-## ⚙️ JavaScript Functionality Details
+## JavaScript Functionality Details
  
 ### Form Validation
  
