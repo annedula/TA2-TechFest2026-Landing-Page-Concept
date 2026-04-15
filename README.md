@@ -177,23 +177,6 @@ function checkField(field) {
 | **Orbitron** | 400, 700, 900 | All headings, labels, nav links, buttons |
 | **Exo 2** | 300, 400, 500, 600 | Body text, paragraphs, form inputs |
  
-## Page Sections
- 
-| Section | ID | Description |
-|---|---|---|
-| Navbar | `#mainNavbar` | Fixed top navigation with links and Register button |
-| Hero | `#hero` | Full-screen intro with title, subtitle, buttons, and image slot |
-| Stats Bar | `#stats` | 4 key numbers: Prizes, Hackers, Tracks, Mentors |
-| Tracks | `#tracks` | 6 challenge tracks in a responsive grid |
-| Speakers | `#carousel-section` | Bootstrap carousel with 4 speaker cards |
-| Schedule | `#schedule` | Bootstrap tabs showing Day 1, 2, and 3 timelines |
-| Prizes | `#prizes` | 4 prize cards including Grand Champion |
-| Register | `#register` | Full registration form with JS validation |
-| Modal | `#infoModal` | "About TechFest" popup with image and info boxes |
-| Toast | `#successToast` | Success message shown after form submission |
-| Footer | — | Event details, contact, and hashtag |
- 
- 
 ## How to Run the Project
  
 This is a **static HTML project** — no server or installation needed.
@@ -208,33 +191,6 @@ This is a **static HTML project** — no server or installation needed.
 2. Install the **Live Server** extension
 3. Right-click `index.html` → click **"Open with Live Server"**
 4. The page will open at `http://127.0.0.1:5500`
- 
----
- 
-## Pre-Submission Checklist
- 
-Before submitting, make sure everything works:
- 
-- [ ] Navbar collapses into hamburger on mobile
-- [ ] Hamburger menu opens and closes correctly
-- [ ] All navbar links scroll to the correct sections
-- [ ] Hero section is visible and buttons work
-- [ ] "Learn More" button opens the modal popup
-- [ ] Modal "Register Now" button closes modal and scrolls to form
-- [ ] Carousel arrows (prev/next) work
-- [ ] Carousel dots work and auto-plays
-- [ ] Schedule tabs (Day 01, 02, 03) switch content correctly
-- [ ] Form shows red borders when fields are empty/wrong on submit
-- [ ] Form shows green borders when fields are filled correctly
-- [ ] GitHub URL only accepts valid `https://github.com/username` links
-- [ ] Both checkboxes must be checked to submit
-- [ ] Success toast appears after valid form submission
-- [ ] Form resets after successful submission
-- [ ] Page looks good on mobile (375px wide)
-- [ ] Page looks good on tablet (768px wide)
-- [ ] Page looks good on desktop (1280px wide)
-- [ ] Images are placed (or placeholders are kept if no images)
-- [ ] No broken links or console errors
  
 ---
  
