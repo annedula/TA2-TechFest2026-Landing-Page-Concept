@@ -5,7 +5,7 @@
  
 **TechFest '26** is a fully responsive, dynamic landing page built for a fictional hackathon event set in Manila, Philippines. This project was created as a midterm assessment to demonstrate mastery of Bootstrap 5, JavaScript form validation, and UI/UX design principles.
 
-## 📁 File Structure
+## File Structure
  
 ```
 TA1-WEBSITE-DEVELOPMENT/
@@ -247,19 +247,6 @@ Before submitting, make sure everything works:
 - [MDN Web Docs — IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 - [Unsplash — Free Images](https://unsplash.com)
 - [W3Schools Bootstrap 5 Tutorial](https://www.w3schools.com/bootstrap5/)
- 
----
- 
-## Project Info
- 
-| | |
-|---|---|
-| **Project Name** | TechFest '26 Dynamic Bootstrap Landing Page |
-| **Course** | Web Development |
-| **Assessment** | Week 12 — Terminal Assessment 2 (Midterm) |
-| **Event Theme** | Hackathon / Tech Festival |
-| **Event Date** | June 20–22, 2026 |
-| **Event Venue** | SMDC Arena, Pasay, Metro Manila |
  
 ---
  
